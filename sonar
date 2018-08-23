@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/awsdocker/my-app'
+     git 'https://github.com/awsdocker/myapp'
    }
    stage('Compile-Package'){
       // Get maven home path
